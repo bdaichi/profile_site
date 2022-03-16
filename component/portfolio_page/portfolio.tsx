@@ -18,7 +18,7 @@ export default function Portfolio(props: Props) {
                     <p className='flex justify-center text-4xl'>{props.portfolioName}</p>
                     <img className='m-8' src={props.imagePath} />
                 </div>
-                <p className='flex flex-row justify-center items-center text-base rounded-md border border-gray-400 p-12 mx-8 my-8 md:w-96'>{props.summary}</p>
+                <p className='flex flex-row justify-center items-center whitespace-pre-wrap text-base rounded-md border border-gray-400 p-12 mx-8 my-8 md:w-96'>{props.summary}</p>
             </div>
         </>
     )

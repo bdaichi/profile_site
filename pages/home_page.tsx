@@ -14,7 +14,7 @@ export default function HomePage() {
                     <ProfileFeild />
                 </div>
                 <div className='absolute top-96 mt-32 md:top-0 md:mt-0 z-0'>
-                    <PortfolioTile imagePath='storeList.jpg' portfolioName='Store List' />
+                    <PortfolioTile imagePath='store List.jpg' portfolioName='Store List' />
                     <PortfolioTile imagePath='visitorForecastApp.jpg' portfolioName='VisitorForecastApp' />
                     <PortfolioTile imagePath='chatApp.jpg' portfolioName='chatApp' />
                 </div>
