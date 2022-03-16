@@ -17,7 +17,7 @@ export default function PortfolioTile(props: Props) {
     }
 
     return (
-        <div className='mt-56 mx-4 md:mt-24 md:mx-20'>
+        <div className='my-4 mx-4 md:mt-24 md:mx-20'>
             <Button
                 onClick={pageRouter}
             >
