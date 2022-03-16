@@ -13,9 +13,8 @@ export default function HomePage() {
                 <div className='flex justify-center m-8'>
                     <ProfileFeild />
                 </div>
-                <div className='absolute top-96 md:top-0 z-0'>
-                    <PortfolioTile imagePath='storeList.jpg' portfolioName='S t o r e L i s t' />
-                    <PortfolioTile imagePath='storeList.jpg' portfolioName='StoreList' />
+                <div className='absolute top-64 md:top-0 z-0'>
+                    <PortfolioTile imagePath='storeList.jpg' portfolioName='Store List' />
                 </div>
             </div>
         </>

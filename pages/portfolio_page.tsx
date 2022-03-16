@@ -11,12 +11,12 @@ export default function PortfolioPage() {
 
     return (
         <>
-            <div>{portfolioName == 'S t o r e L i s t' &&
+            <div>{portfolioName == 'StoreList' &&
                 <Portfolio portfolioName='Store List' imagePath='storeList.jpg' summary={storeListSummary} />
             }</div>
-            <div>{portfolioName == 'StoreList' &&
-                <p>2</p>
-            }</div>
+            {/* <div>{portfolioName == '' &&
+                
+            }</div> */}
         </>
     )
 }
