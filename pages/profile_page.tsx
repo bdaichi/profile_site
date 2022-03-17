@@ -41,8 +41,8 @@ export default function ProfilePage() {
                     <p className='flex justify-center text-xl'>年齢： 19歳</p>
                     <p className='flex justify-center text-xl mx-4'>血液型： A型</p>
                 </div>
-                <div className='flex flex-row items-center my-8 ml-6 border-b border-gray-300'>
-                    <p className='flex justify-center text-xl p-4'>趣味</p>
+                <div className='flex flex-row items-center my-8 mt-12 md:mt-40 ml-6 border-b border-gray-300'>
+                    <p className='flex justify-center text-xl md:text-2xl py-4'>趣味</p>
                     {!isOpenHobbyDrawer ?
                         <IconButton onClick={openHobbyDrawer} className='absolute right-9'>
                             <ExpandMoreIcon />
@@ -68,7 +68,7 @@ export default function ProfilePage() {
                     </>
                 }</div>
                 <div className='flex flex-row items-center my-8 ml-6 border-b border-gray-300'>
-                    <p className='flex justify-center text-lg py-4'>プログラミングについて</p>
+                    <p className='flex justify-center text-lg md:text-2xl py-4'>プログラミングについて</p>
                     {!isOpenCareerDrawer ?
                         <IconButton onClick={openCareerDrawer} className='absolute right-9'>
                             <ExpandMoreIcon />
