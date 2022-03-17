@@ -13,7 +13,7 @@ export default function HomePage() {
                 <div className='flex justify-center m-8'>
                     <ProfileFeild />
                 </div>
-                <div className='absolute top-96 mt-32 md:top-0 md:mt-0 z-0'>
+                <div className='absolute top-96 mt-12 md:top-0 md:mt-0 z-0'>
                     <PortfolioTile imagePath='store List.jpg' portfolioName='Store List' />
                     <PortfolioTile imagePath='visitorForecastApp.jpg' portfolioName='VisitorForecastApp' />
                     <PortfolioTile imagePath='chatApp.jpg' portfolioName='chatApp' />
